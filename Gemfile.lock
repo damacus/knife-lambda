@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    aws_lambda_ric (1.0.2)
+    aws_lambda_ric (2.0.0)
     bcrypt_pbkdf (1.1.0)
     builder (3.2.4)
     chef (17.1.35)
@@ -274,6 +274,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   aws_lambda_ric
