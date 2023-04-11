@@ -1,11 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.1)
+    addressable (2.8.3)
       public_suffix (>= 2.0.2, < 6.0)
     aws-eventstream (1.2.0)
-    aws-partitions (1.728.0)
-    aws-sdk-core (3.170.0)
+    aws-partitions (1.741.0)
+    aws-sdk-core (3.171.0)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
       aws-sigv4 (~> 1.5)
@@ -13,7 +13,7 @@ GEM
     aws-sdk-kms (1.63.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-s3 (1.119.1)
+    aws-sdk-s3 (1.120.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.4)
@@ -25,19 +25,19 @@ GEM
     aws_lambda_ric (2.0.0)
     bcrypt_pbkdf (1.1.0)
     builder (3.2.4)
-    chef (18.1.29)
+    chef (18.2.7)
       addressable
       aws-sdk-s3 (~> 1.91)
       aws-sdk-secretsmanager (~> 1.46)
-      chef-config (= 18.1.29)
-      chef-utils (= 18.1.29)
+      chef-config (= 18.2.7)
+      chef-utils (= 18.2.7)
       chef-vault
       chef-zero (>= 14.0.11)
       corefoundation (~> 0.3.4)
       diff-lcs (>= 1.2.4, < 1.6.0, != 1.4.0)
       erubis (~> 2.7)
       ffi (>= 1.15.5)
-      ffi-libarchive (~> 1.1, >= 1.1.3)
+      ffi-libarchive (~> 1.0, >= 1.0.3)
       ffi-yajl (~> 2.2)
       iniparse (~> 1.4)
       inspec-core (>= 5)
@@ -59,9 +59,9 @@ GEM
       unf_ext (>= 0.0.8.2)
       uuidtools (>= 2.1.5, < 3.0)
       vault (~> 0.16)
-    chef-config (18.1.29)
+    chef-config (18.2.7)
       addressable
-      chef-utils (= 18.1.29)
+      chef-utils (= 18.2.7)
       fuzzyurl
       mixlib-config (>= 2.2.12, < 4.0)
       mixlib-shellout (>= 2.0, < 4.0)
@@ -69,7 +69,7 @@ GEM
     chef-telemetry (1.1.1)
       chef-config
       concurrent-ruby (~> 1.0)
-    chef-utils (18.1.29)
+    chef-utils (18.2.7)
       concurrent-ruby
     chef-vault (4.1.11)
     chef-zero (15.0.11)
@@ -139,7 +139,7 @@ GEM
     ipaddress (0.8.3)
     jmespath (1.6.2)
     json (2.6.3)
-    knife (18.1.0)
+    knife (18.2.7)
       bcrypt_pbkdf (~> 1.1)
       chef (>= 18)
       chef-config (>= 18)
@@ -156,6 +156,7 @@ GEM
       net-ssh-multi (~> 1.2, >= 1.2.1)
       ohai (~> 18.0)
       pastel
+      proxifier2 (~> 1.1)
       train-core (~> 3.10)
       train-winrm (>= 0.2.5)
       tty-prompt (~> 0.21)
@@ -261,7 +262,7 @@ GEM
     strings-ansi (0.2.0)
     syslog-logger (1.6.8)
     thor (1.2.1)
-    time (0.2.1)
+    time (0.2.2)
       date
     timeout (0.3.2)
     tomlrb (1.3.0)
